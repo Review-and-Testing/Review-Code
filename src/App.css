@@ -1,0 +1,17 @@
+.App > div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #cccccc80;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}

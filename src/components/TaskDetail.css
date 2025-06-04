@@ -1,0 +1,29 @@
+.task-detail-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-detail-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin: 8px 0;
+  }
+  
+  strong {
+    color: #4CAF50;
+  }
+  

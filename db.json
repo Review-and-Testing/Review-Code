@@ -1,0 +1,31 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Create Login Page",
+      "assignedTo": "alice@example.com",
+      "status": "Open",
+      "priority": "High",
+      "startDate": "01Jan2024",
+      "endDate": "20Jan2024"
+    },
+    {
+      "id": "2",
+      "title": "Implement Redux Thunk",
+      "assignedTo": "bob@example.com",
+      "status": "In-Progress",
+      "priority": "Medium",
+      "startDate": "05Jan2024",
+      "endDate": ""
+    },
+    {
+      "id": "3",
+      "title": "Finalize UI Design",
+      "assignedTo": "charlie@example.com",
+      "status": "Done",
+      "priority": "High",
+      "startDate": "10Jan2024",
+      "endDate": "20Jan2024"
+    }
+  ]
+}
