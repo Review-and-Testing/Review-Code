@@ -1,0 +1,48 @@
+header {
+    background: #1e2939;
+}
+
+header .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header .navbar-nav {
+    flex-direction: row;
+    flex: 1;
+}
+
+header .navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+header .navbar-nav .nav-item .nav-link {
+    padding: 0;
+    color: #fff;
+    border: none;
+}
+
+header .navbar-nav .nav-item .nav-link.active,
+header .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 2px solid #00c951;
+}
+
+header .navbar-brand {
+    color: #00c951;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+header .ml-auto {
+    margin-left: auto;
+}
+
+header .ml-auto button {
+    background: #358ffc;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-weight: 700;
+}

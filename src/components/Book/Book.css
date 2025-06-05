@@ -1,0 +1,106 @@
+.container {
+    padding-top: 20px;
+}
+
+.container .subHeading {
+    display: flex;
+    align-items: center;
+}
+
+.container .subHeading h1 {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+.container .subHeading div {
+    margin-left: auto;
+}
+
+.container .subHeading div label {
+    padding-right: 10px;
+}
+
+.container .subHeading div select {
+    font-size: 14px;
+}
+
+.container .tableWrapper {
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.3);
+    overflow-x: auto;
+}
+
+.container .tableWrapper table{
+    min-width: 1069px;
+}
+
+.container .tableWrapper .viewEditBtnWrap button {
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.container .tableWrapper .viewEditBtnWrap button svg {
+    fill: #b58cca;
+    height: 25px;
+    width: 25px;
+}
+
+.container .tableWrapper .viewEditBtnWrap button:first-child {
+    margin-right: 20px;
+}
+
+.container .tableWrapper .viewEditBtnWrap button:first-child svg {
+    fill: #00bc7d;
+}
+
+.container .tableWrapper .viewEditBtnWrap button:hover {
+    transition: all 1s ease;
+    transform: scale(1.2);
+}
+
+.container .table th {
+    text-align: left;
+}
+
+.container .table th.sNo {
+    width: 2%;
+}
+
+.container .table th.title {
+    width: 20%;
+}
+
+.container .table th.des {
+    width: 50%;
+}
+
+.container .table th.status {
+    width: 11%;
+}
+
+.container .table th.action {
+    width: 11%;
+}
+
+.container .table td {
+    text-align: left;
+}
+
+.addBookText {
+    font-size: 22px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+}
