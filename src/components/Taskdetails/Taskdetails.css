@@ -1,0 +1,125 @@
+    .tasksDetailsWrap{
+        padding-top: 85px;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+
+    .tableWrapper{
+        border: 1px solid #f0f0f0;
+        border-radius: 10px;
+        padding: 0 15px 0 15px;
+    }
+
+    .tableWrapper th{
+        color: #212529;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    .tableWrapper th,.tableWrapper tr{
+        border-color:  #f0f0f0;
+    }
+
+    .tableWrapper td{
+        color: #212529;
+        font-size: 13px;
+        vertical-align: middle;
+    }
+
+    .tableWrapper tr:hover td{
+        background: #eeeeee;
+        cursor: pointer;
+    }
+
+    .editDeleteBtnWrap button{
+        background: transparent;
+        border: 1px solid #eeeeee;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .editDeleteBtnWrap button:hover{
+        background: #e05170;
+    }
+
+    .editDeleteBtnWrap button:nth-child(2):hover i,
+    .editDeleteBtnWrap button:first-child:hover i{
+        color: #fff;
+    }
+
+    .editDeleteBtnWrap button:first-child{
+        border-right: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+
+    }
+
+    .editDeleteBtnWrap button:nth-child(2){
+        border-right: none;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .editDeleteBtnWrap button:first-child i{
+    color: rgb(25 135 84);
+    }
+
+    .editDeleteBtnWrap button:nth-child(2) i{
+    color: rgb(220 53 69);
+    }
+
+    .tableWrapper  td.sno{
+        color: rgb(220 53 69);
+        font-weight: 700;
+    }
+
+    .status span{
+        color: #fff;
+        border-radius: 5px;
+        font-weight: 700;
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+    .In-Progress{
+        background:rgb(255 193 7);
+    }
+
+
+
+    .Under-review{
+        background: #64868e;
+    }
+
+    .Open{
+        background: rgb(220 53 69);
+    }
+
+    .Done{
+        background: rgb(25 135 84);
+
+    }
+
+    th i{
+        color: rgb(220 53 69);
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 5px;
+    }
+
+    .tableWrapper{
+        overflow: auto;
+        height: 400px;
+    }
+
+    table{
+        min-width: 1069px;
+    }
+    .tableWrapper table thead th {
+        position: sticky;
+        top: 0;
+        background: #fff;
+        z-index: 2;
+    }
+    

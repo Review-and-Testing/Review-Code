@@ -1,0 +1,39 @@
+.modal.show{
+    display: flex;
+    background: rgba(0,0,0,.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal .modal-dialog{
+    max-width: 500px;
+    flex: 0 0 500px;
+}
+
+.modal .btn-primary{
+    background: #4c3575;
+}
+
+.modal button{
+    padding: 5px 15px;
+    border:none
+}
+
+.modal .btn-secondary{
+    background: #6c757d;
+}
+
+.modal button:hover{
+    border:none
+}
+
+.modal-body{
+    padding-top: 30px;
+}
+
+.modal-footer{
+    border:none;
+    justify-content: center;
+    padding: 0;
+    padding-bottom: 20px;
+}

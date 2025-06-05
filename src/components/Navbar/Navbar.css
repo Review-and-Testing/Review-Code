@@ -1,0 +1,71 @@
+header {
+    background: #4c3575;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+header .navbar {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+header .navbar-nav {
+    flex-direction: row;
+    flex: 1;
+}
+
+header .navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+header .navbar-nav .nav-item .nav-link {
+    padding: 0;
+    color: #fff;
+    border: none;
+    
+}
+
+header .navbar-nav .nav-item .nav-link.active,
+header .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 700;
+}
+
+header .navbar-brand {
+    color: #e05170;
+    font-weight: 900;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+header .navbar-brand:hover,
+header .navbar-brand:focus,
+header .navbar-brand:visited,
+header .navbar-brand:active {
+    color: #e05170;
+}
+
+
+.logo-icon{
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    min-height: 45px;
+    border-radius: 50%;
+    background-color: #e05170;
+    margin-right: 10px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-icon svg {
+    width: 25px;
+    fill: #fff;
+}

@@ -1,0 +1,22 @@
+.ticketDetailWrap{
+    text-align: left;
+    max-width: 650px;
+    margin: auto;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, .2);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.ticketDetailWrap h2{
+    text-align: center;
+}
+
+.ticketDetailWrap h3{
+    color: rgb(220 53 69);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container.pt-80{
+    padding-top: 80px;
+}
